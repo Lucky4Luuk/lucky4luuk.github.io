@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(32, 24, 74);
+    color: rgb(131, 120, 191);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper {
+    /* padding: 0px; */
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(64, 48, 160);
+    border-style: solid;
+    background-color: rgb(64, 48, 160);
+    color: rgb(0, 120, 191);
+    font-family: 'Roboto Mono', monospace;
+
+    height: 90%;
+    overflow: hidden;
+}
+
+.main_div {
+    padding: 8px;
+    border-radius: 8px;
+    border-color: rgb(64, 48, 160);
+    border-style: solid;
+    background-color: rgb(0, 24, 74);
+    color: rgb(0, 120, 191);
+    font-family: 'Roboto Mono', monospace;
+
+    width: 65%;
+    height: 98.2%;
+    float: left;
+}
+
+.navigation_div {
+    padding: 8px;
+    border-radius: 8px;
+    border-color: rgb(64, 48, 160);
+    border-style: solid;
+    background-color: rgb(0, 24, 74);
+    color: rgb(0, 120, 191);
+    font-family: 'Roboto Mono', monospace;
+
+    width: 33.2%;
+    height: 98.2%;
+    float: left;
+}
+
+a {
+    color: rgb(131, 120, 191);
+}
