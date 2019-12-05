@@ -2,6 +2,7 @@ body {
     background-color: rgb(32, 24, 74);
     color: rgb(131, 120, 191);
     font-family: 'Roboto Mono', monospace;
+    white-space: pre-wrap;
 }
 
 .wrapper {
@@ -17,6 +18,7 @@ body {
     weight: 100%;
     height: 90%;
     overflow: hidden;
+    white-space: pre-wrap;
 }
 
 .header {
@@ -43,6 +45,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 
     height: 100%;
+    white-space: pre-wrap;
 }
 
 .navigation_div {
@@ -56,6 +59,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 
     height: 100%;
+    white-space: pre-wrap;
 }
 
 a {

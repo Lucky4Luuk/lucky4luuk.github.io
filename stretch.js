@@ -15,7 +15,7 @@ function pad(n, width, z) {
 
 function addPrefix(str) {
     var i = 1;
-    let tmp = str.split('<br>'),
+    let tmp = str.split('\n'),
         res = [];
 
     // res.push("[ !] >> | " + headerStr);
