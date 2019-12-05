@@ -21,7 +21,7 @@ function addPrefix(str) {
     // res.push("[ !] >> | " + headerStr);
 
     for (const frag of tmp) {
-        res.push("[" + pad(i, 2, ' ') + "] >> | " + frag);
+        res.push('<span class="code">[' + pad(i, 2, ' ') + "] >> | </span>" + frag);
         i += 1;
     }
 

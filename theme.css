@@ -13,6 +13,10 @@ body {
     color: rgb(90, 80, 105);
 }
 
+.code {
+    color: rgb(120, 120, 191);
+}
+
 .wrapper {
     /* padding: 0px; */
     border-width: 1px;
