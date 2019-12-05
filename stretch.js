@@ -33,7 +33,7 @@ function addPrefix(str) {
 var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 // var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
-var wCount = Math.floor(width / getTextWidth("=", "3.5em Roboto Mono") / 2) - 8;
+var wCount = Math.floor(width / getTextWidth("=", "3.5em Roboto Mono") / 2) - 7;
 
 document.getElementById("header").innerHTML = "!" + "=".repeat(wCount) + " Luuk's realm " + "=".repeat(wCount) + "!";
 console.log(document.getElementById("main_text").innerHTML);
