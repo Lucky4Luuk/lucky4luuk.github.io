@@ -14,13 +14,13 @@ body {
     color: rgb(0, 120, 191);
     font-family: 'Roboto Mono', monospace;
 
-    weight: 105%;
+    weight: 100%;
     height: 90%;
     overflow: hidden;
 }
 
 .main_div {
-    padding: 8px;
+    padding: 4px;
     border-radius: 8px;
     border-color: rgb(64, 48, 160);
     border-style: solid;
@@ -35,7 +35,7 @@ body {
 }
 
 .navigation_div {
-    padding: 8px;
+    padding: 4px;
     border-radius: 8px;
     border-color: rgb(64, 48, 160);
     border-style: solid;
