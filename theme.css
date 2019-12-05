@@ -19,8 +19,22 @@ body {
     overflow: hidden;
 }
 
+.header {
+    padding: 4px;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(64, 48, 160);
+    border-style: solid;
+    background-color: rgb(0, 18, 54);
+    color: rgb(30, 160, 210);
+    font-family: 'Roboto Mono', monospace;
+
+    height: 100%;
+}
+
 .main_div {
     padding: 4px;
+    border-width: 1px;
     border-radius: 8px;
     border-color: rgb(64, 48, 160);
     border-style: solid;
@@ -28,14 +42,12 @@ body {
     color: rgb(0, 120, 191);
     font-family: 'Roboto Mono', monospace;
 
-    /* width: 65%; */
-    /* height: 98.2%; */
-    /* float: left; */
     height: 100%;
 }
 
 .navigation_div {
     padding: 4px;
+    border-width: 1px;
     border-radius: 8px;
     border-color: rgb(64, 48, 160);
     border-style: solid;
@@ -43,9 +55,6 @@ body {
     color: rgb(0, 120, 191);
     font-family: 'Roboto Mono', monospace;
 
-    /* width: 33%; */
-    /* height: 98.2%; */
-    /* float: right; */
     height: 100%;
 }
 

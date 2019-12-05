@@ -7,15 +7,25 @@ function getTextWidth(text, font) {
     return metrics.width;
 }
 
+function pad(n, width, z) {
+  z = z || '0';
+  n = n + '';
+  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+
 function addPrefix(str) {
     var i = 1;
     let tmp = str.split('<br>'),
         res = [];
 
+    // res.push("[ !] >> | " + headerStr);
+
     for (const frag of tmp) {
-        res.push(i.toString() + "] >> | " + frag);
+        res.push("[" + pad(i, 2, ' ') + "] >> | " + frag);
         i += 1;
     }
+
+    console.log(res.join('<br>'));
 
     return res.join('<br>');
 }
