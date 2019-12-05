@@ -9,6 +9,10 @@ body {
     color: rgb(180, 90, 191);
 }
 
+.comment {
+    color: rgb(90, 80, 105);
+}
+
 .wrapper {
     /* padding: 0px; */
     border-width: 1px;
