@@ -1,30 +1,30 @@
 body {
-    background-color: rgb(32, 24, 74);
-    color: rgb(131, 120, 191);
+    background-color: #272822; /*rgb(32, 24, 74);*/
+    color: #D6C2C2; /*rgb(131, 120, 191);*/
     font-family: 'Roboto Mono', monospace;
     white-space: pre-wrap;
 }
 
 .keyword {
-    color: rgb(180, 90, 191);
+    color: #F92672; /*rgb(180, 90, 191);*/
 }
 
 .comment {
-    color: rgb(90, 80, 105);
+    color: #75715E; /*rgb(90, 80, 105);*/
 }
 
 .code {
-    color: rgb(120, 120, 191);
+    color: #F8F8F2; /*rgb(120, 120, 191);*/
 }
 
 .wrapper {
     /* padding: 0px; */
     border-width: 1px;
-    border-radius: 8px;
-    border-color: rgb(64, 48, 160);
+    border-radius: 6px;
+    border-color: rgb(46, 46, 46); /*rgb(64, 48, 160);*/
     border-style: solid;
-    background-color: rgb(64, 48, 160);
-    color: rgb(0, 120, 191);
+    background-color: rgb(46, 46, 46);
+    /*color: #F6F6F2; /*rgb(0, 120, 191);*/
     font-family: 'Roboto Mono', monospace;
 
     weight: 100%;
@@ -36,11 +36,11 @@ body {
 .header {
     padding: 4px;
     border-width: 1px;
-    border-radius: 8px;
-    border-color: rgb(64, 48, 160);
+    /* border-radius: 4px; */
+    border-color: rgb(36, 36, 36);
     border-style: solid;
-    background-color: rgb(0, 18, 54);
-    color: rgb(30, 160, 210);
+    background-color: rgb(36, 36, 36); /*rgb(0, 18, 54);*/
+    /*color: #F6F6F2;/*rgb(30, 160, 210);*/
     font-family: 'Roboto Mono', monospace;
 
     height: 100%;
@@ -49,11 +49,11 @@ body {
 .main_div {
     padding: 4px;
     border-width: 1px;
-    border-radius: 8px;
-    border-color: rgb(64, 48, 160);
+    /* border-radius: 4px; */
+    border-color: rgb(36, 36, 36);
     border-style: solid;
-    background-color: rgb(0, 24, 74);
-    color: rgb(0, 120, 191);
+    background-color: rgb(36, 36, 36); /*rgb(0, 24, 74);*/
+    /*color: #F6F6F2; /*rgb(0, 120, 191);*/
     font-family: 'Roboto Mono', monospace;
 
     height: 100%;
@@ -64,10 +64,10 @@ body {
     padding: 4px;
     border-width: 1px;
     border-radius: 8px;
-    border-color: rgb(64, 48, 160);
+    border-color: rgb(36, 36, 36);
     border-style: solid;
-    background-color: rgb(0, 24, 74);
-    color: rgb(0, 120, 191);
+    background-color: rgb(36, 36, 36);
+    /*color: #F6F6F2;*/
     font-family: 'Roboto Mono', monospace;
 
     height: 100%;
