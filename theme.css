@@ -5,6 +5,10 @@ body {
     white-space: pre-wrap;
 }
 
+.keyword {
+    color: rgb(180, 90, 191);
+}
+
 .wrapper {
     /* padding: 0px; */
     border-width: 1px;
